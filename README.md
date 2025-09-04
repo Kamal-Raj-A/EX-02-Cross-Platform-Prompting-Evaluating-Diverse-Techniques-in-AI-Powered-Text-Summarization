@@ -6,15 +6,16 @@ To evaluate and compare the effectiveness of prompting techniques (zero-shot, fe
 ## Scenario:
 You are part of a content curation team for an educational platform that delivers quick summaries of research papers to undergraduate students. Your task is to summarize a 500-word technical article on "The Basics of Blockchain Technology" using multiple AI platforms and prompting strategies.
 
-<img width="1015" height="421" alt="image" src="https://github.com/user-attachments/assets/16c9285d-fcce-4cb4-ab12-b0e41f19ec2a" />
+<img width="685" height="273" alt="image" src="https://github.com/user-attachments/assets/5e76d064-dd30-499e-831e-aac5f4423da3" />
 
+
+<img width="277" height="182" alt="image" src="https://github.com/user-attachments/assets/062b9773-a931-403f-b557-5c608b9ce680" />
 
 Your goal is to determine which combination of prompting technique + platform provides the best summary in terms of:
 
 ## Accuracy
 
 <img width="960" height="539" alt="Screenshot 2025-09-04 091813" src="https://github.com/user-attachments/assets/64733efc-67d0-447c-b43b-a91c906c3274" />
-
 
 ChatGPT (GPT-4): A very strong all-rounder. It adapted exceptionally well to the role-based prompt, producing summaries that were both engaging and easy to understand. It consistently delivered high-quality results across all techniques.
 
@@ -25,6 +26,9 @@ Claude 3: Claude's strength was in generating exceptionally fluid and coherent p
 Copilot: As an integrated tool, its primary advantage was speed and convenience. The quality was comparable to ChatGPT, as it is based on similar models. It was extremely fast for generating quick, zero-shot summaries, but also handled the more complex prompts effectively.
 
 ## Coherence
+
+<img width="1400" height="452" alt="image" src="https://github.com/user-attachments/assets/8a094875-8be7-4aa3-842f-09c891e51530" />
+
 
 1. Logical Flow and Progression of Ideas:
 A coherent summary presents information in a logical order. This doesn't necessarily mean the same order as the source article. It means the ideas are arranged to build upon one another naturally.
@@ -49,11 +53,16 @@ Maintains focus: A summary that sticks strictly to defining the technology itsel
 
 ## Simplicity
 
+<img width="2932" height="1755" alt="image" src="https://github.com/user-attachments/assets/4948c87a-d04c-427c-8b64-408b5cfd8008" />
+
+
 In our project, simplicity is the crucial process of making complex ideas accessible to a non-expert audience, like the undergraduate students we serve. It's not about removing important details, but about translating them into a format that's easy to understand. This is achieved by avoiding technical jargon in favor of plain language, using shorter and more direct sentences, and employing relatable analogies to explain abstract concepts. For instance, instead of describing blockchain as a "distributed, immutable public ledger," a simpler and more effective summary would compare it to a "shared digital notebook" that everyone can see but no one can alter. This approach transforms a dense, technical topic into an intuitive idea, ensuring the summary actually educates the reader rather than just presenting them with facts.
 
 Our evaluation revealed that achieving this simplicity from AI is highly dependent on the instructions provided. A generic "summarize" command often results in a text that retains the original article's complexity. However, the most effective method was using a Role-Based prompt, such as asking the AI to "act as a professor explaining this to first-year students." This specific instruction fundamentally changes the AI's task from merely condensing information to actively teaching a concept. By adopting the persona of an educator, the AI naturally prioritizes clarity and accessibility, consistently producing summaries that are not only accurate but genuinely simple and easy to comprehend.
 
 ## Speed
+
+
 
 Defining "Speed" in Our Workflow: For this evaluation, speed was measured not just by the AI's raw text generation time, but by the total time taken from initial prompt to a final, usable summary. This includes the time spent writing the prompt, the AI's response time, and, most importantly, any time required for edits or re-prompting to meet our quality standards.
 
@@ -80,6 +89,9 @@ The difference in experience between prompt types was significant. Using a basic
 While all platforms offered a clean and intuitive interface, the most notable UX feature was Copilot's integration, which streamlines the workflow by eliminating the need to switch applications. However, the universal conclusion is that the user has the most control over their own experience. Mastering the use of specific, well-defined prompts is the key to transforming any of these powerful AI tools into a truly reliable and easy-to-use assistant. For our content team, creating a shared template of effective prompts will ensure a consistently positive user experience for everyone.
 
 ## Algorithm
+
+<img width="624" height="374" alt="image" src="https://github.com/user-attachments/assets/ae28dc9c-2e4f-4e25-9983-11a7b0604d0f" />
+
 
 The evaluation was conducted using a structured, multi-step process to ensure a fair and consistent comparison across all variables.
 
@@ -113,4 +125,13 @@ Analyze and Score: The 16 summaries were then carefully evaluated and scored aga
 
 ## Result
 
+The prompting technique you use is significantly more important than the specific AI platform you choose.
+
+For your team's goal of creating simple and clear summaries for undergraduate students, the most effective and efficient method is Role-Based Prompting. This technique consistently outperformed all others because it directly instructs the AI to consider the target audience, resulting in summaries that are not just accurate but also perfectly tuned in tone and simplicity.
+
+Therefore, the final recommendation is to standardize your summarization process around a role-based prompt structure. While all platforms like ChatGPT, Gemini, and Claude perform exceptionally well with this method, your best results will come from a prompt like:
+
+"Act as a university professor. Summarize the following text for a first-year undergraduate student who has no prior knowledge of the topic."
+
+In short, the key to success is not in finding the "best" AI, but in mastering the art of asking the AI to become the best summarizer for your specific needs.
 
